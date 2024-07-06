@@ -66,3 +66,25 @@
     gap: 30px;
 }
  
+/* style about section  */
+
+.about-container{
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+.about-container>h5{
+    font-size: 30px;
+}
+.about-container p{
+    margin: 10px 0px;
+}
+.about-items-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.about-item .title{
+    font-weight: bold;
+}
