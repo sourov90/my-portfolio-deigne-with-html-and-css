@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* shared style  */
+.btn-primary{
+    padding:10px 20px;
+  
+    background-color: rgb(233, 154, 7);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size:600;
+}
+
+.header-container{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+    
+}
+
+/* navber style  */
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 80px;
+}
+.nav-container p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.nav-items li{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* banner style   */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 80px;
+
+}
+.banner-text-container .banner-title{
+    font-size: 40px;
+
+}
+.banner-text-container .banner-description{
+    margin: 20px 0px;
+}
+.banner-download-container{
+    display: flex;
+    gap: 30px;
+}
+ 
