@@ -147,10 +147,22 @@
 /* style footer  */
 .footers{
     display: flex;
-     gap: 60px;
+     gap: 20px;
      justify-content: space-between;
-     padding: 20px 0px;
+     padding: 20px 60px;
+    background-color: antiquewhite;
+    margin-top: 40px;
+    padding: 80px;
+    align-items: center;
+}
+.footer-text-container{
+    max-width: 600px;
 }
 .footer-form-container{
     margin-bottom: 20px;
+}
+.tipe{
+    margin: 10px 0px;
+    height: 50px;
+    width: 100%;
 }
