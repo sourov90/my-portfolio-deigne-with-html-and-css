@@ -134,35 +134,115 @@
 }
 
 /* resume summary style  */
-.summary-container{
+.summary-container {
     display: flex;
     padding: 40px 84px;
     gap: 20px;
 }
-.summary-resume-items-container{
-  
+
+.summary-resume-items-container {
+
     margin: 30px 0px;
 }
 
 /* style footer  */
-.footers{
+.footers {
     display: flex;
-     gap: 20px;
-     justify-content: space-between;
-     padding: 20px 60px;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px 60px;
     background-color: antiquewhite;
     margin-top: 40px;
     padding: 80px;
     align-items: center;
 }
-.footer-text-container{
+
+.footer-text-container {
     max-width: 600px;
 }
-.footer-form-container{
+
+.footer-form-container {
     margin-bottom: 20px;
 }
-.tipe{
+
+.tipe {
     margin: 10px 0px;
     height: 50px;
     width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        /* justify-content: space-between;
+            padding: 20px 80px; */
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .btn-primary {
+        padding: 5px 5px;
+
+        background-color: rgb(233, 154, 7);
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 600;
+    }
+
+    .banner-text-container .banner-title {
+        font-size: 20px;
+
+    }
+
+
+
+    .banner-download-container {
+        flex-direction: column;
+
+    }
+
+    .banner-images-sourov {
+        width: 300px;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+
+    }
+
+    .about-items-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .what-do-container {
+        padding: 10px;
+
+    }
+
+    .resume-container {
+        flex-direction: column;
+        max-width: 1140px;
+        margin: 0px auto;
+        gap: 30px;
+    }
+
+    .summary-container {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .footers {
+        flex-direction: column;
+
+        padding: 10px;
+
+    }
 }
